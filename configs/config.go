@@ -14,7 +14,7 @@ type Config struct {
 	}
 }
 
-func NewConfig() (Config, error) {
+func LoadConfig() (Config, error) {
 	configFile, err := os.Open("./configs/config.json")
 	if err != nil {
 		return Config{}, err

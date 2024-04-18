@@ -1,9 +1,9 @@
 package handler
 
 import (
-	"forum/internal/service"
-	"forum/models"
 	"sync"
+	"web-forum/internal/service"
+	"web-forum/models"
 )
 
 var (
